@@ -1,0 +1,26 @@
+*{
+    font-family:'open sans';
+}
+
+/* Nav styles */
+.orange-text{
+    color: #FD6E0A;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav li{
+    font-size:20px;
+    color: #474747;
+}
+.btn-nav{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFBF3;
+    background-color: #FD6E0A;
+    border-style: none;
+    border-radius: 5px;
+    padding: 20px 17px;
+    /* change the padding to 18px 35px */
+}
