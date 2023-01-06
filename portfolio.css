@@ -1,8 +1,25 @@
 *{
     font-family:'open sans';
+    margin:0;
 }
 
 /* Nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 225px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    font-size:20px;
+    color: #474747;
+    margin:20px;
+    list-style: none;
+}
+
 .orange-text{
     color: #FD6E0A;
 }
@@ -21,6 +38,6 @@ nav li{
     background-color: #FD6E0A;
     border-style: none;
     border-radius: 5px;
-    padding: 20px 17px;
-    /* change the padding to 18px 35px */
+    padding: 18px 35px;
 }
+
