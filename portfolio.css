@@ -3,6 +3,13 @@
     margin:0;
 }
 
+header{
+    background: #FFF8F3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 /* Nav styles */
 nav{
     display: flex;
@@ -19,7 +26,6 @@ nav li{
     margin:20px;
     list-style: none;
 }
-
 .orange-text{
     color: #FD6E0A;
 }
@@ -40,4 +46,68 @@ nav li{
     border-radius: 5px;
     padding: 18px 35px;
 }
+.intro{
+    display: flex;
+    margin: 0 225px;
+    align-items: center;
+    
+}
+.hi{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+.f-name{
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+.general-text{
+    font-size: 18px;
+    color: #757575;
+}
+.btn-contact{
+    /* same as btn-nav */
+    font-size: 20px;
+    font-weight: 700;
+    color:#FD6E0A ;
+    background-color: #FFFBF3;
+    border:1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+
+/* main section styles */
+main{
+    width:1140px;
+    margin:0 auto;
+}
+.about{
+    text-align: center;
+    margin-top:125px;
+    background: #FFF8F3;
+    padding:121px 148px 141px 165px;
+}
+.a-m{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom:30px;
+}
+.same{
+    font-size: 20px;
+    text-align: center;
+    color: #757575;
+}
+.sameA{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+.info{
+    margin-top:30px;
+    display:flex;
+    gap:55px;
+    text-align: center;
+}
+
 
